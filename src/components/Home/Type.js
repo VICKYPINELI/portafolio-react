@@ -6,13 +6,15 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "kaixo, Vicky naiz",
-          "Hola, Me llamo Vicky",
-          "Hi! Im Vicky",
+          "Kaixo!  <br> Vicky naiz. ",
+          "¡Hola!,  <br> Me llamo Vicky. ",
+          "Hi!, <br> I'm Vicky.",
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 20,
+        deleteSpeed: "natural",
+        delay: "natural",
+        pauseFor:1500,
       }}
     />
   );

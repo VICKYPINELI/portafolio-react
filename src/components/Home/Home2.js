@@ -13,17 +13,18 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              Quieres <span className="purple"> CONOCER </span> más sobre mi
-            </h1>
+      <Row>
+          <Col  md={12} className="home-about-description">
+                <h1 style={{ fontSize: "2.6em" }}>
+                  QUIERES <span className="purple"> CONOCER </span> MÁS SOBRE MI.
+                </h1>
+          </Col>
+        <Col lg={3}  md={12}  className="myAvtar">
+            <Tilt> <img src={myImg} className="img-fluid" alt="avatar" /></Tilt>
+          </Col>
+          <Col lg={9}  md={12} className="home-about-description">
             <p  style={{ textAlign: "justify" }} className="home-about-body">
-            {/* Me formé como administrativa, crecí como emprendedora en el mundo del estilismo y me voy a hacer mayor como programadora full stack.
-Me considero una persona dinámica, responsable y sin miedo a afrontar nuevos retos, con más de 20 años de experiencia en diferentes trabajos enfocados a la relación con el cliente, facturación y gestión de recursos, trabajos que me han dado muchas satisfacciones y que me han ensañado a desarrollarme tanto profesionalmente, como a valorar e incentivar las buenas relaciones cliente-empresa.
-En la actualidad estoy involucrada en diferentes proyectos para acercar las nuevas tecnologías a los distintos agentes de la comunidad educativa escolar, que me ha hecho descubrir un mundo apasionante que ha cambiado mi vida profesional, y que a día de hoy, este volcada en adquirir los conocimientos necesarios para poder en un futuro próximo, desarrollar aplicaciones web en el ámbito de las nuevas metodologías educativas, basadas en inteligencias múltiples, la gamificación y el autoaprendizaje. 🤷‍♂️ */}
-              <br />
-              <br />Manejo con fluidez clásicos como
+              Manejo con fluidez clásicos como
               <i>
                 <b className="purple"> html, css , Javascript and Python. </b>
               </i>
@@ -48,22 +49,15 @@ En la actualidad estoy involucrada en diferentes proyectos para acercar las nuev
                 </b>
               </i>
               &nbsp; como
-              <i>
-                <b className="purple"> VUE.js, React.js and Next.js</b>
-              </i>
+              <i><b className="purple"> VUE.js, React.js and Next.js</b></i>
             </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>QUIERES CONTACTAR CONMIGO</h1>
+            <h1>SI  <span className="purple">QUIERES CONTACTAR </span> CONMIGO</h1>
             <p>
-            Aqui tambièn{' '}<span className="purple">puedes encontrarme </span>
+            Aqui tambièn{' '}<span className="purple">puedes encontrarme. </span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

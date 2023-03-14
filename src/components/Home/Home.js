@@ -12,25 +12,16 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-               ¡Hola!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
-              </h1>
-
-              <h1 className="heading-name">
-                Me llamo
-                <strong className="main-name"> Vicky </strong>
-              </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
+            <Col md={12}  lg={7}className="home-header">
+              <h1 style={{ paddingBottom: 50 }} className="heading"> <Type /></h1>
+              {/* <span className="wave" role="img" aria-labelledby="wave">👋🏻</span> */}
+              {/* <h1 className="heading-name"><Type1 /></h1> */}
+              <div style={{ padding: 60, textAlign: "left" }}>
+              <strong  className="main-description">  Y soy Full Stak Developer.</strong>
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={12}  lg={5} style={{ paddingBottom: 10 }}>
               <img
                 src={homeLogo}
                 alt="home pic"
