@@ -1,5 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+// import wave from  "./style.css";
 
 function Type() {
   return (
