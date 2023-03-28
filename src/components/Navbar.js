@@ -94,13 +94,23 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Contacto
+              </Nav.Link>
+            </Nav.Item>
+{/* 
+            <Nav.Item>
+              <Nav.Link
                 href="https://soumyajitblogs.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Contacto
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             {/* <Nav.Item className="fork-btn">
               <Button
