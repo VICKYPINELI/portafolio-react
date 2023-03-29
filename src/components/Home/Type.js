@@ -7,8 +7,8 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Kaixo!  <br> Vicky naiz. ",
-          "¡Hola!,  <br> Me llamo Vicky. ",
+          "Kaixo!  <br> Vicky naiz ",
+          "¡Hola!,  <br> Soy Vicky.",
           "Hi!, <br> I'm Vicky.",
         ],
         autoStart: true,

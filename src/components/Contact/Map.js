@@ -1,4 +1,5 @@
 import React from "react";
+import { Container, Row } from "react-bootstrap";
 
 
 const demos = {
@@ -16,9 +17,11 @@ function Iframe(props) {
 
 function Map() {
   return (
-    <div className="App">
-      <Iframe iframe={demos["soundcloud"]} allow="autoplay" />,
-    </div>
+    <Container fluid className="project-card">
+    <Row>
+        <Iframe iframe={demos["soundcloud"]} allow="autoplay" />,
+      </Row>
+    </Container>
   );
 }
 

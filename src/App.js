@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import Projects from "./components/Projects/Projects";
+import Home from "./components/Home/HomePage";
+import About from "./components/About/AboutPage";
+import Projects from "./components/Projects/ProjectsPage";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume/ResumeNew";
+import Download from "./components/Download/DownloadPage";
 import Contact from "./components/Contact/ContactPage";
 import {
   BrowserRouter as Router,
@@ -39,7 +39,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/download" element={<Download />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>

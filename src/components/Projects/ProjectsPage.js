@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 // import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 // import leaf from "../../Assets/Projects/leaf.png";
@@ -9,12 +9,12 @@ import Particle from "../Particle";
 // import suicide from "../../Assets/Projects/suicide.png";
 // import bitsOfCode from "../../Assets/Projects/blog.png";
 
-function Projects() {
+function ProjectsPage() {
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
+        <h1 className="title-heading">
           Mis <strong className="purple">proyectos</strong>
         </h1>
         <p style={{ color: "white" }}>
@@ -93,4 +93,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default ProjectsPage;

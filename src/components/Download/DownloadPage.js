@@ -8,10 +8,10 @@ import { Document, Page, pdfjs } from "react-pdf";
  import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink =
+const dowloadLink =
   "https://raw.githubusercontent.com/VICKYPINELI/potafolio-react/main/src/Assets/CV-Vicky.pdf";
 
-function ResumeNew() {
+function DownloadPage() {
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
@@ -20,7 +20,7 @@ function ResumeNew() {
 
   return (
     <div>
-      <Container fluid className="resume-section">
+      <Container fluid className="dowload-section">
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
@@ -34,8 +34,8 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        <Row className="resume">
-          <Document file={ resumeLink } className="d-flex justify-content-center">
+        <Row className="dowload">
+          <Document file={ dowloadLink } className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
@@ -56,4 +56,7 @@ function ResumeNew() {
   );
 }
 
-export default ResumeNew;
+export default DownloadPage;
+
+
+

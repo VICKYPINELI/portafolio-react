@@ -12,12 +12,14 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={12}  lg={7}className="home-header">
-              <h1 style={{ paddingBottom: 50 }} className="heading"> <Type /></h1>
-              {/* <span className="wave" role="img" aria-labelledby="wave">👋🏻</span> */}
-              {/* <h1 className="heading-name"><Type1 /></h1> */}
+            <Col md={12}  lg={7 }className="home-header">
+              <div  style={{height: 200}} >
+                  <h1 style={{ paddingBottom: 10 }} className="heading"> <Type /></h1>
+                  {/* <span className="wave" role="img" aria-labelledby="wave">👋🏻</span> */}
+                  {/* <h1 className="heading-name"><Type1 /></h1> */}
+              </div>
               <div style={{ padding: 60, textAlign: "left" }}>
-              <strong  className="main-description">  Y soy Full Stak Developer.</strong>
+              <strong  className="main-description">  Full Stak Developer junior.</strong>
               </div>
             </Col>
 

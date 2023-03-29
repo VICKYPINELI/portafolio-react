@@ -7,7 +7,7 @@ import Aboutcard from "./AboutCard";
  import womanKoder from "../../Assets/womanKoder.png";
 import Toolstack from "./Toolstack";
 
-function About() {
+function AboutPage() {
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -22,7 +22,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              Esta  <strong className="purple">soy yo</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -35,14 +35,14 @@ function About() {
 
           </Col>
         </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+        <h1 className="title-heading">
+          Mi lista de <strong className="purple">Skillset </strong> profesionales
         </h1>
 
         <Techstack />
 
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+        <h1 className="title-heading">
+          Las <strong className="purple">herramientas </strong> que utilizo
         </h1>
         <Toolstack />
 
@@ -52,4 +52,4 @@ function About() {
   );
 }
 
-export default About;
+export default AboutPage;
