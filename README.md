@@ -1,11 +1,4 @@
-<h2 align="center">
-  Portfolio Website <br/>
-  <a href=".............................." target="_blank">kandula.dev</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
-<br/>
+
 
 ## Esta aplicaciòn ha sido realizada  con las siguientes tecnologias:
 - React.js
@@ -28,3 +21,11 @@ npm install @emailjs/browser
 
 
 
+<h2 align="center">
+  Portfolio Website <br/>
+  <a href=".............................." target="_blank">kandula.dev</a>
+</h2>
+<div align="center">
+  <img alt="Demo" src="./Images/readme-img1.png" />
+</div>
+<br/>
